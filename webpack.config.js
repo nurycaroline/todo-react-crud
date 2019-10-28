@@ -86,6 +86,7 @@ const config = {
     stats: 'minimal',
     inline: true,
     overlay: true,
+    historyApiFallback: true,
     headers: {
       'X-Custom-Header': 'yes',
       'X-Powered-By': 'Fq',
